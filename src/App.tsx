@@ -1,23 +1,11 @@
 import "./App.css";
-import { Button } from "./components/Button";
-
-function App() {
-  return (
+import {Button} from "./components/Button"
+function App(){
+  return(
     <>
-      <Button
-        variant="primary"
-        size="md"
-        text="Share"
-        onClick={() => alert("Shared!")}
-      />
-      <Button
-        variant="secondary"
-        size="md"
-        text="Add Content"
-        onClick={() => alert("Content Added!")}
-      />
+    <Button size="sm" variant="primary" text="share"/>
+    <button size="md" variant="secondary" text="Add content"/>
+    <button size="lg" variant="primary" text="Login"/>
     </>
-  );
+  )
 }
-
-export default App;
