@@ -12,9 +12,9 @@ const variantStyles={
     "Secondary": "bg-purple-100 text-purple-700"
 }
 const sizeStyles={
-  "sm": "p-2",
-  "md": "p-3",
-  "lg": "p-4"
+  "sm": "py-2 px-2",
+  "md": "py-3 px-4",
+  "lg": "py-4 px-5"
 
 }
 export const Button=(props: ButtonProps)=>{
